@@ -13,6 +13,8 @@ The website showcases healthcare-related information and services with interacti
 - **CSS3** – Styling and responsive layout
 - **JavaScript** – Interactivity and logic
 
+---
+
 ## Third-Party Libraries & Resources
 
 - **Owl Carousel** – Used for responsive sliders and carousels  
