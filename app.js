@@ -1,10 +1,28 @@
 let response;
 let data;
 
-window.addEventListener("load", function () {
+function hideLoader() {
   const loader = document.getElementById("loader");
-  loader.style.display = "none";
+  if (loader) {
+    loader.classList.add("hide");
+  }
+}
+
+/* When page loads normally */
+window.addEventListener("load", hideLoader);
+
+/* When page is restored from back/forward navigation */
+window.addEventListener("pageshow", function (event) {
+  if (event.persisted) {
+    hideLoader();
+  }
 });
+
+window.addEventListener("pageshow", function () {
+  const loader = document.getElementById("loader");
+  if (loader) loader.classList.add("hide");
+});
+
 
 
 function loadpage(page) {
