@@ -1,6 +1,12 @@
 let response;
 let data;
 
+window.addEventListener("load", function () {
+  const loader = document.getElementById("loader");
+  loader.style.display = "none";
+});
+
+
 function loadpage(page) {
 
   const container = document.getElementById("main-container");
