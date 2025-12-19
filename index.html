@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Owl Carousel CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="./app.css" />
+  <link href='https://cdn.boxicons.com/3.0.6/fonts/basic/boxicons.min.css' rel='stylesheet'>
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <div class="initial-contact">
+      <i class='bx  bx-cannabis'></i>
+      <h2>
+        Apex MediCare
+      </h2>
+    </div>
+
+    <div class="initial-contact">
+      <i class='bx  bx-book-add'></i>
+      <p>Second Medical Option <br>Book Consultation</p>
+    </div>
+    <div class="initial-contact">
+      <i class='bx  bx-phone-plus'></i>
+      <p>Call Us On <br>9858962222</p>
+    </div>
+    <div class="initial-contact">
+      <i class='bx  bx-mail-open'></i>
+      <p>Email Us On <br>info@mediretreats.com</p>
+    </div>
+
+    <div class="initial-contact">
+      <select name="country" id="country-select">
+        <option value="in">India</option>
+        <option value="rus">Russia</option>
+        <option value="us">USA</option>
+        <option value="jp">Japan</option>
+        <option value="gm">Germany</option>
+        <option value="uk">United Kingdom</option>
+      </select>
+    </div>
+  </header>
+
+  <nav>
+    <ul class="navigation">
+      <li><a href="#main-container" onclick="loadpage('./index.html')">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li class="dropdown">
+        <a href="#treatments">Treatments+</a>
+        <ul class="option">
+          <li><a onclick="loadpage('./components/orthopaedics.html')">Orthopaedic</a></li>
+          <li><a onclick="loadpage('./components/Cardiology.html')">Cardiology</a></li>
+          <li><a onclick="loadpage('./components/Neurology.html')">Neurology</a></li>
+          <li><a onclick="loadpage('./components/Dentistry.html')">Dentistry</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#footer">Destinations+</a>
+        <ul class="option">
+          <li><a href="#">Mumbai</a></li>
+          <li><a href="#">Jaipur</a></li>
+          <li><a href="#">Nashik</a></li>
+          <li><a href="#">Delhi</a></li>
+        </ul>
+      </li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#faqs">FAQs</a></li>
+      <li><a href="#faculties">Doctors </a></li>
+      <li><a href="#blog">Blog</a></li>
+    </ul>
+
+  </nav>
+
+  <main id="main-container">
+    <section class="hero-section">
+      <div>
+        <h1>Welcome to Apex MediCare</h1>
+        <p>We are here to assist you....We are known for our execellent service and care towards our patients</p>
+        <a href="#faq">Enquire</a>
+      </div>
+      <img src="./images/doctors/doctor3.jpg" alt="">
+    </section>
+    <section id="treatments">
+      <div class="content content-overview">
+        <div>
+          <h1>Treatments</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iusto quasi excepturi, quidem debitis
+            facere. Veniam, rerum veritatis? Eveniet ab illum voluptatem. Ut soluta suscipit porro aut vel sint officia.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta aliquam atque reprehenderit, quam repellat
+            ipsa accusamus odio dolore architecto quae, est excepturi aspernatur corrupti delectus perspiciatis iure
+            necessitatibus corporis ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid et fugiat quos,
+            repellendus, optio doloremque necessitatibus repellat saepe autem sequi obcaecati. Eum sint debitis ut nemo
+            nihil vero quisquam molestiae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, quibusdam ab
+            itaque molestias cupiditate minima deleniti temporibus est omnis ut vitae eum.
+          <ul>
+            <li>adipisicing</li>
+            <li>amet</li>
+            <li>consectetur</li>
+            <li>ipsum</li>
+          </ul>
+          </p>
+        </div>
+        <img src="./images/hero/hero-main.png" alt="" loading="lazy">
+      </div>
+      <hr>
+      <div id="services" class="content content-overview">
+        <img src="./images/hero/hero-main2.png" alt="" loading="lazy">
+        <div>
+          <h1>Our Services</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iusto quasi excepturi, quidem debitis
+            facere. Veniam, rerum veritatis? Eveniet ab illum voluptatem. Ut soluta suscipit porro aut vel sint officia.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta aliquam atque reprehenderit, quam repellat
+            ipsa accusamus odio dolore architecto quae, est excepturi aspernatur corrupti delectus perspiciatis iure
+            necessitatibus corporis ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid et fugiat quos,
+            repellendus, optio doloremque necessitatibus repellat saepe autem sequi obcaecati. Eum sint debitis ut nemo
+            nihil vero quisquam molestiae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, quibusdam ab
+            itaque molestias cupiditate minima deleniti temporibus est omnis animi possimus eveniet voluptatem delectus
+            nemo adipisci voluptas ut vitae eum.
+          <ul>
+            <li>adipisicing</li>
+            <li>amet</li>
+            <li>consectetur</li>
+            <li>ipsum</li>
+          </ul>
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="content content-overview">
+        <div>
+          <h1>Specialist In....</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iusto quasi excepturi, quidem debitis
+            facere. Veniam, rerum veritatis? Eveniet ab illum voluptatem. Ut soluta suscipit porro aut vel sint officia.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta aliquam atque reprehenderit, quam repellat
+            ipsa accusamus odio dolore architecto quae, est excepturi aspernatur corrupti delectus perspiciatis iure
+            necessitatibus corporis ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid et fugiat quos,
+            repellendus, optio doloremque necessitatibus repellat saepe autem sequi obcaecati. Eum sint debitis ut nemo
+            nihil vero quisquam molestiae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, quibusdam ab
+            itaque molestias cupiditate minima deleniti temporibus est omnis animi possimus eveniet voluptatem delectus
+            nemo adipisci voluptas ut vitae eum.
+          <ul>
+            <li>adipisicing</li>
+            <li>amet</li>
+            <li>consectetur</li>
+            <li>ipsum</li>
+          </ul>
+          </p>
+        </div>
+        <img src="./images/hero/hero-main.png" alt="" loading="lazy">
+
+      </div>
+    </section>
+
+    <hr>
+    
+    <section class="slider">
+      <h1>Our Happy patients and their happy <i>Journey</i> with us..</h1>
+      <div class="container">
+        <div class="owl-carousel owl-theme">
+          <div class="item-card">
+            <img src="./images/patients/pateint1.jpg" alt="Slide 1" loading="lazy">
+            <h3>Name</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, iusto accusantium? Eveniet blanditiis
+              sapiente, veritatis architecto reprehenderit incidunt doloremque illo voluptates debitis harum.</p>
+          </div>
+          <div class="item-card">
+            <img src="./images/patients/patient2.jpg" alt="Slide 2">
+            <h3>Name</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum repudiandae consectetur placeat earum
+              dolorum illo odio ratione hic eius quis neque exercitationem dicta, necessitatibus vitae blanditiis</p>
+          </div>
+          <div class="item-card">
+            <img src="./images/patients/patient3.jpg" alt="Slide 3">
+            <h3>Name</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, natus ipsam. Sapiente quo facilis
+              esse
+              molestias perferendis culpa veniam, nihil at aperiam repellat vel, earum maxime? Laborum non blanditiis
+              saepe!</p>
+          </div>
+          <div class="item-card">
+            <img src="./images/patients/patient4.jpg" alt="Slide 3">
+            <h3>Name</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, velit. Sint autem sapiente quidem
+              cupiditate tempore inventore, modi eius doloremque esse dolores, facere.</p>
+          </div>
+          <div class="item-card">
+            <img src="./images/patients/patient5.jpg" alt="Slide 3">
+            <h3>Name</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit tenetur quidem sint distinctio nobis
+              ipsum,
+              culpa vero delectus exercitationem aliquid, alias rem repellat eligendi quia mollitia quam adipisci maxime
+              deleniti.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+
+    <section class="slider staff-section" id="faculties">
+      <h1>Meet Our <i>Doctors</i>..</h1>
+      <div class="container">
+        <div class="owl-carousel owl-theme">
+          <div class="item-card">
+            <img src="./images/doctors/doctor1.jpg" alt="">
+            <h3>Lauren Den</h3>
+            <p>Mumbai</p>
+            <p>Cardiac</p>
+          </div>
+          <div class="item-card">
+            <img src="./images/doctors/doctor2.jpg" alt="">
+            <h3>Fency lan</h3>
+            <p>Nashik</p>
+            <p>Neurology and Surgery</p>
+          </div>
+          <div class="item-card">
+            <img src="./images/doctors/doctor3.jpg" alt="">
+            <h3>Henry Van</h3>
+            <p>Jaipur</p>
+            <p>BDS-Dentist</p>
+          </div>
+          <div class="item-card">
+            <img src="./images/doctors/doctor4.jpg" alt="">
+            <h3>Marry Don</h3>
+            <p>Mumbai</p>
+            <p>Orthopaedic Surgeon</p>
+          </div>
+          <div class="item-card">
+            <img src="./images/doctors/doctor5.jpg" alt="">
+            <h3>John Tim</h3>
+            <p>Delhi</p>
+            <p>MBBS and Cardiologist</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <section class="content content-overview" id="blog">
+      <img src="./images/blog/blog1.jpg" alt="">
+      <div>
+        Men's Health
+        <h2><a href="https://www.health.harvard.edu/blog">How does prostate cancer treatment affect mental health?</a>
+        </h2>
+        <i>Published November 21, 2025</i>
+        <p>The long-term outlook for men diagnosed with prostate cancer continues to improve. These medical advances,
+          however, have also drawn attention to the mental health challenges many survivors encounter. It’s still common
+          for survivors to struggle with loss of masculine self-esteem and changes in body image.</p>
+      </div>
+    </section>
+
+    <hr>
+
+    <section id="faq" class="faqs">
+      <div>
+        <h1>Frequently Asked Questions</h1>
+
+        <details open>
+          <summary>What is Neuro Surgery</summary>
+          <div>Neuro surgery is a surgery to remove and replace the whole damaged knee joint with an artificial joint.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum harum vero nobis, eligendi distinctio
+            eveniet, illo aliquam tempora, vitae doloremque odio ipsa? Maxime quasi pariatur, libero corrupti ullam
+            saepe.
+            Illo.</div>
+        </details>
+
+        <details>
+          <summary>What injuries require orthopaedic surgery?</summary>
+          <div>Common Orthopaedic injuries that require surgery
+            <ul>
+              <li>Dislocations</li>
+              <li>Fractures</li>
+              <li>ligament injury </li>
+              <li>Impingement</li>
+              <li>Overuse Injuries</li>
+              <li>Sprains</li>
+            </ul>
+          </div>
+        </details>
+
+        <details>
+          <summary>How long does it take to recover from bypass surgery?</summary>
+          <div>Some patients require several weeks to recover. Others may have to wait several months. A lot depends
+            upon
+            the procedure done for the patient and the overall condition of the patient . Depending on your overall
+            health, the condition for which you were treated, and the type of surgery performed, you may be able to go
+            home the same day or the day after surgery.</div>
+        </details>
+      </div>
+      <form class="enquiry-form" id="enquiryx">
+
+        <h1>Need Any <i>Help</i> ?</h1>
+        <p>We are here to assist you....</p>
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email">
+        <input type="number" placeholder="Mobile">
+        <input type="text" placeholder="Your Query">
+        <a onclick="handleClick()">Submit</a>
+      </form>
+    </section>
+    <footer class="footer">
+      <div>
+        <h1>Tratement</h1>
+        <ul>
+          <li>Neurology</li>
+          <li>Cardiology</li>
+          <li>Dentist</li>
+          <li>Gastrology</li>
+          <li>Orthopaedic</li>
+          <li>Nutritional</li>
+        </ul>
+      </div>
+      <div>
+        <h1>Location</h1>
+        <ul>
+          <li>Jaipur</li>
+          <li>Delhi</li>
+          <li>Chennai</li>
+          <li>Udaipur</li>
+          <li>Mumbai</li>
+          <li>Nashik</li>
+          <li>Ahmedabad</li>
+          <li>Luchnow</li>
+          <li>Goa</li>
+        </ul>
+      </div>
+      <div>
+        <h1>Facilities</h1>
+        <ul>
+          <li>X-Ray</li>
+          <li>MRI</li>
+          <li>CT-Scan</li>
+          <li>Blood Test</li>
+          <li>Full Body Scan</li>
+        </ul>
+      </div>
+      <div>
+        <h1>Websites</h1>
+        <ul>
+          <li>HealthCare.gov</li>
+          <li>Nutritional.in</li>
+          <li>Medicaid.com</li>
+          <li>HealthInsurance.in</li>
+        </ul>
+      </div>
+    </footer>
+  </main>
+
+  <!-- alert -->
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- Owl Carousel JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
