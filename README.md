@@ -30,6 +30,6 @@ The website showcases healthcare-related information and services with interacti
 
 ## Live Demo
 🔗 **Live Website:** 
-<a href="https://apexmedicare.netlify.app/">Click Here....</a> 
-https://apexmedicare.netlify.app/
+
+-<a href="https://apexmedicare.netlify.app/">Click Here....</a> 
 ---
