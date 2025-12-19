@@ -51,6 +51,36 @@ showLoader();
       container.innerHTML = data;
 
              hideLoader();
+             $(document).ready(function () {
+  `~`
+  $(".owl-carousel").owlCarousel({
+    loop: true,
+    margin: 20,
+    nav: false,
+    dots: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+    lazyLoad: true,
+    responsive: {
+      0: {           
+        items: 1,
+        margin: 10,
+        stagePadding: 20
+      },
+      576: {          
+        items: 1,
+        margin: 15
+      },
+      768: {         
+        items: 2
+      },
+      992: {         
+        items: 3
+      }
+    }
+  });
+});
     })
     .catch(error => {
       container.innerHTML =
