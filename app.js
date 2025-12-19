@@ -8,6 +8,14 @@ function hideLoader() {
   }
 }
 
+function showLoader() {
+  const loader = document.getElementById("loader");
+  if (loader) {
+    loader.classList.remove("hide");
+  }
+}
+
+
 /* When page loads normally */
 window.addEventListener("load", hideLoader);
 
@@ -18,10 +26,6 @@ window.addEventListener("pageshow", function (event) {
   }
 });
 
-window.addEventListener("pageshow", function () {
-  const loader = document.getElementById("loader");
-  if (loader) loader.classList.add("hide");
-});
 
 
 
@@ -33,7 +37,8 @@ function loadpage(page) {
     return;
   }
 
-  console.log("loading page", page)
+showLoader();
+
 
   fetch(page)
     .then(response => {
@@ -44,12 +49,19 @@ function loadpage(page) {
     })
     .then(data => {
       container.innerHTML = data;
+
+             hideLoader();
     })
     .catch(error => {
       container.innerHTML =
         "<h2>Error</h2><p>Content could not be loaded.</p>";
+               hideLoader();
       console.log("error", error)
     });
+
+
+
+
 }
 
 
