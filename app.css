@@ -569,7 +569,7 @@ a {
 
 @media (max-width:576px) {
   header {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .initial-contact p {
@@ -641,12 +641,16 @@ a {
     font-size: 0.9rem;
   }
 
+  .faqs {
+    flex-direction: column;
+  }
+
   .faqs div details div {
     width: 100%;
   }
 }
 
-@media (max-width:380px) {
+@media (max-width:420px) {
   header {
     font-size: 0.5rem;
   }
